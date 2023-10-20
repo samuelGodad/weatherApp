@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>weather app</title>
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" href="/src/styles.css" /> -->
+  </head>
+
+  <body>
+    <div class="weather">
+      <input type="search" class="weather_search" placeholder="Addis Ababa" />
+      <div class="weather_today">
+        <div class="weather_details">
+          <h2 class="weather_city">city</h2>
+          <p class="weather_day">day</p>
+
+          <div class="weather_current">
+            <p class="weather_indicatore humidity">
+              <span class="value">50</span>%
+            </p>
+            <p class="weather_indicatore wind">
+              <span class="value">south 10</span>m/s
+            </p>
+            <p class="weather_indicatore pressure">
+              <span class="value">1000</span>hg
+            </p>
+          </div>
+        </div>
+        <img
+          src="/src/assets/clearsky.png"
+          alt="weather image"
+          class="weather_image"
+        />
+        <div class="weather_temperature">
+          <span class="value">20</span>&deg;C
+        </div>
+      </div>
+      <div class="weather_forcast">
+        <article class="weather_forcast_items">
+          <img
+            src="/src/assets/clear.png"
+            alt="clear sky"
+            class="weather_forcast_icons"
+          />
+          <h3 class="weather_forcast_day">Monday</h3>
+          <p class="weather_forcast_temperature">
+            <span class="value">20</span>&deg;
+          </p>
+        </article>
+        <article class="weather_forcast_items">
+          <img
+            src="/src/assets/clear.png"
+            alt="clear sky"
+            class="weather_forcast_icons"
+          />
+          <h3 class="weather_forcast_day">Tuesday</h3>
+          <p class="weather_forcast_temperature">
+            <span class="value">20</span>&deg;
+          </p>
+        </article>
+        <article class="weather_forcast_items">
+          <img
+            src="/src/assets/clear.png"
+            alt="clear sky"
+            class="weather_forcast_icons"
+          />
+          <h3 class="weather_forcast_day">Wednesday</h3>
+          <p class="weather_forcast_temperature">
+            <span class="value">20</span>&deg;
+          </p>
+        </article>
+        <article class="weather_forcast_items">
+          <img
+            src="/src/assets/clear.png"
+            alt="clear sky"
+            class="weather_forcast_icons"
+          />
+          <h3 class="weather_forcast_day">Thursday</h3>
+          <p class="weather_forcast_temperature">
+            <span class="value">20</span>&deg;C
+          </p>
+        </article>
+        <article class="weather_forcast_items">
+          <img
+            src="/src/assets/clear.png"
+            alt="clear sky"
+            class="weather_forcast_icons"
+          />
+          <h3 class="weather_forcast_day">Friday</h3>
+          <p class="weather_forcast_temperature">
+            <span class="value">20</span>&deg;
+          </p>
+        </article>
+        <article class="weather_forcast_items">
+          <img
+            src="/src/assets/clear.png"
+            alt="clear sky"
+            class="weather_forcast_icons"
+          />
+          <h3 class="weather_forcast_day">Saturday</h3>
+          <p class="weather_forcast_temperature">
+            <span class="value">20</span>&deg;
+          </p>
+        </article>
+        <article class="weather_forcast_items">
+          <img
+            src="/src/assets/clear.png"
+            alt="clear sky"
+            class="weather_forcast_icons"
+          />
+          <h3 class="weather_forcast_day">Sunday</h3>
+          <p class="weather_forcast_temperature">
+            <span class="value">20</span>&deg;
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
